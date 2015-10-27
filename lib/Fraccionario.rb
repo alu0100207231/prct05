@@ -1,6 +1,6 @@
 class Fraccionario
-
+   attr_reader :n, :d
    def initialize(n, d)
-      @x, @y = x, y
+      @n, @d = n, d
    end
 end
